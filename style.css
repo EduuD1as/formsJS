@@ -1,0 +1,50 @@
+body {
+  font-family: "Open Sans";
+  background: url(./assets/bg-desktop.jpg) no-repeat scroll;
+  background-size: cover;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+  overflow: hidden;
+}
+
+input,
+select,
+textarea {
+  border-radius: 6px;
+  width: 280px;
+  border: 1px solid gray;
+}
+
+textarea {
+  height: 50px;
+}
+
+form {
+  width: min-content;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: rgb(235, 195, 239);
+  flex-direction: column;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid gray;
+  height: 32px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: azure;
+}
+
+select:hover {
+  cursor: pointer;
+}
